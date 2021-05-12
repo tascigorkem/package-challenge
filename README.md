@@ -116,10 +116,18 @@ Javadoc directory: `../package-challenge/target/site/apidocs/`
 
 ### To Run
 
-To run this application; 
+To run and contribute this project; 
 
+1- Git clone: 
+`git clone https://github.com/tascigorkem/package-challenge.git`
+
+2- Change directory:
+`cd package-challenge/`
+
+3- Maven Clean Install:
 `mvn clean install`
 
+4- Run JAR with input file path: 
 `java -jar target/implementation-1.0-SNAPSHOT.jar "src/test/resources/example_input"`
 
 <img src="./docs/command-line-running.png" alt="" width="800">
