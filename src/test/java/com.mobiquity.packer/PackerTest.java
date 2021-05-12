@@ -9,7 +9,6 @@ import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
 import java.io.File;
-import java.io.IOException;
 
 class PackerTest {
 
@@ -23,16 +22,15 @@ class PackerTest {
      *
      * Checks whether expected output dto equals to result of Packer.pack method's output dto
      *
-     * @throws IOException
-     * @throws APIException
+     * @throws APIException is thrown if validation fails
      */
     @Test
-    void pack_GivenValidFile_ShouldReturnExpectedOutput() throws IOException, APIException {
+    void pack_GivenValidFile_ShouldReturnExpectedOutput() throws APIException {
         // GIVEN:
 
         // generates fake input file
         String fileName = "example_input";
-        String filePath = "src/main/test/resources/" + fileName;
+        String filePath = "src/test/resources/" + fileName;
         File inFile = new File(filePath);
         Input fakeInput = InputTest.getFakeInput();
 

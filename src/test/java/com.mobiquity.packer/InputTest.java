@@ -26,7 +26,7 @@ class InputTest {
 
         // generates fake input file
         String fileName = "example_input";
-        String filePath = "src/main/test/resources/" + fileName;
+        String filePath = "src/test/resources/" + fileName;
         File inFile = new File(filePath);
 
         // WHEN:
@@ -48,7 +48,7 @@ class InputTest {
     void readInputFile_GivenWrongFilePath_ShouldThrowAPIException() {
         // GIVEN:
         String fileName = "non_exist_file_name";
-        String filePath = "src/main/test/resources/" + fileName;
+        String filePath = "src/test/resources/" + fileName;
         File inFile = new File(filePath);
 
         // WHEN:
@@ -57,7 +57,7 @@ class InputTest {
 
         // THEN:
         APIException expectedException = new APIException(MessageFormat.format("File read error: {0}",
-                "src/main/test/resources/non_exist_file_name (No such file or directory)"));
+                "src/test/resources/non_exist_file_name (No such file or directory)"));
         Assertions.assertEquals(expectedException.getMessage(), resultException.getMessage());
     }
 
