@@ -48,22 +48,28 @@ numbers are separated by comma). E.g.
 
 ## Solution
 
+#### Algorithm
+
 First, It could be solved using brute force i.e. checking each possibility. 
-Then the time complexity would be O(2^n). It is not good enough.
+Then the time complexity would be `O(2^n)`. It is not good enough.
 
 Instead of this, 0-1 Knapsack implementation with dynamic programming is used. 
-So, algorithm has a running time of O(n*W). 
+So, algorithm has a running time of `O(n*W)`. 
 n is a number of items in package and W is a maximum weight limit.
 
 1- Construct 2D cost matrix for weights [itemSize+1][weightLimit+1]
 
 2- Fill the 2D cost matrix with dynamic programming according to;
 
+`
 if w[i] > maxWeight
 then F(i, maxWeight) = F(i-1, maxWeight)
+`
 
+`
 else if w[i] < maxWeight
 then F(i, maxWeight) = max{ F(i-1, maxWeight), F(i-1, maxWeight-w[i]) + v[i] }
+`
 
 3- Iterate 2D cost matrix to find out selected item indexes
 
@@ -116,4 +122,9 @@ To run this application;
 
 `java -jar target/implementation-1.0-SNAPSHOT.jar "src/test/resources/example_input"`
 
-<img src="./docs/command-line-running.png" alt="" width="600">
+<img src="./docs/command-line-running.png" alt="" width="800">
+
+
+Görkem Taşçı,
+
+2021
