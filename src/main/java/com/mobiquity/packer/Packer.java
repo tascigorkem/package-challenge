@@ -73,7 +73,7 @@ public class Packer {
             valueMatrix[i] = sortedInitialPackageItems[i].getCost();
         }
 
-        // construct 2D cost matrix for weights [item+1][weightLimit+1]
+        // construct 2D cost matrix for weights [itemSize+1][weightLimit+1]
         int[][] costMatrix = new int[sortedInitialPackageItems.length + 1][weightLimit + 1];
         // fill 2D cost matrix with dynamic programming
         knapsack(sortedInitialPackageItems.length, weightLimit, weightMatrix, valueMatrix, costMatrix);

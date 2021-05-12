@@ -23,7 +23,7 @@ public class FileTranslator {
      *
      * @param file input file
      * @return input bean
-     * @throws IOException
+     * @throws APIException is thrown if validation fails
      */
     public static Input readInputFile(File file) throws APIException {
         Input input = new Input();
