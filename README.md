@@ -93,7 +93,9 @@ Used patterns:
 
 **Validation & Exception Handling:**
 
-<img src="./docs/file-validation-unit-test.png" alt="" width="600">
+<img src="./docs/file-validation-unit-test-cost.png" alt="" width="600">
+
+<img src="./docs/file-validation-unit-test-non-exist.png" alt="" width="600">
 
 ### Javadoc
 
@@ -113,6 +115,7 @@ Javadoc directory: `../package-challenge/target/site/apidocs/`
 
 - Other invalid input files are also in same directory
 
+- To use as a library, remove `PackageChallengeApplication` main class and `maven-jar-plugin` plugin in the pom.xml
 
 ### To Run
 
