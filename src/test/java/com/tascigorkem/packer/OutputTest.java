@@ -1,7 +1,7 @@
-package com.mobiquity.packer;
+package com.tascigorkem.packer;
 
-import com.mobiquity.dto.Output;
-import com.mobiquity.dto.PackageBox;
+import com.tascigorkem.dto.Output;
+import com.tascigorkem.dto.PackageBox;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

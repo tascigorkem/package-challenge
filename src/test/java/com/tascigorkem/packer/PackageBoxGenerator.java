@@ -1,7 +1,7 @@
-package com.mobiquity.packer;
+package com.tascigorkem.packer;
 
-import com.mobiquity.dto.PackageBox;
-import com.mobiquity.dto.PackageItem;
+import com.tascigorkem.dto.PackageBox;
+import com.tascigorkem.dto.PackageItem;
 
 import java.util.Arrays;
 import java.util.List;

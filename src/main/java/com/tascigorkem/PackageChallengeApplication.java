@@ -1,7 +1,7 @@
-package com.mobiquity;
+package com.tascigorkem;
 
-import com.mobiquity.exception.APIException;
-import com.mobiquity.packer.Packer;
+import com.tascigorkem.exception.APIException;
+import com.tascigorkem.packer.Packer;
 
 public class PackageChallengeApplication {
     public static void main(String[] args) throws APIException {

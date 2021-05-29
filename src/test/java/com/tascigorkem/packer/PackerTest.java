@@ -1,8 +1,8 @@
-package com.mobiquity.packer;
+package com.tascigorkem.packer;
 
-import com.mobiquity.dto.Input;
-import com.mobiquity.dto.Output;
-import com.mobiquity.exception.APIException;
+import com.tascigorkem.dto.Input;
+import com.tascigorkem.dto.Output;
+import com.tascigorkem.exception.APIException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;

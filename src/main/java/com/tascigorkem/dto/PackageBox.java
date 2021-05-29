@@ -1,4 +1,4 @@
-package com.mobiquity.dto;
+package com.tascigorkem.dto;
 
 import lombok.*;
 

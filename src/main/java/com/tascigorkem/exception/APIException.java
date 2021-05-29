@@ -1,4 +1,4 @@
-package com.mobiquity.exception;
+package com.tascigorkem.exception;
 
 public class APIException extends Exception {
 

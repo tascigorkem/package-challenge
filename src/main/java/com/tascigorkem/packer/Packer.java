@@ -1,10 +1,10 @@
-package com.mobiquity.packer;
+package com.tascigorkem.packer;
 
-import com.mobiquity.dto.Input;
-import com.mobiquity.dto.Output;
-import com.mobiquity.dto.PackageBox;
-import com.mobiquity.dto.PackageItem;
-import com.mobiquity.exception.APIException;
+import com.tascigorkem.dto.Input;
+import com.tascigorkem.dto.Output;
+import com.tascigorkem.dto.PackageBox;
+import com.tascigorkem.dto.PackageItem;
+import com.tascigorkem.exception.APIException;
 
 import java.io.File;
 import java.text.MessageFormat;
