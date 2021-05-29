@@ -1,6 +1,6 @@
 ## Package Challenge
 
-It's a maven project for solving packaging problem.
+It's a maven project for solving the following packaging problem.
 
 ## Problem:
 
@@ -114,8 +114,6 @@ Javadoc directory: `../package-challenge/target/site/apidocs/`
 - Valid input file `example_input` and response file `example_output` are in `../src/test/resources/` directory.
 
 - Other invalid input files are also in same directory
-
-- To use as a library, remove `PackageChallengeApplication` main class and `maven-jar-plugin` plugin in the pom.xml
 
 ### To Run
 
